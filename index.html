@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="slideshow.css"> -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -16,8 +15,6 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
-    <!-- integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" -->
-
 
 
 </head>
@@ -32,11 +29,11 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
+                <!-- <li><a href="#skills" class="menu-btn">Skills</a></li> -->
                 <li><a href="#achievement" class="menu-btn">Achievement</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#experience" class="menu-btn">Experience</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -51,11 +48,7 @@
             <div class="home-content">
                 <div class="text-1">HELLO, My Name is </div>
                 <div class="text-2">AJAY KARODE </div>
-                <div class="text-3">And I'm a <span class="typing"></span> </div>
-                <!-- <a href="#">HIRE ME!</a> -->
-       
-
-           
+                <div class="text-3">And I'm a <span class="typing"></span> </div>           
             </div>
         </div>
     </section>
@@ -88,7 +81,7 @@
 
 
     <!-- services section start -->
-    <section class="services" id="services">
+    <section class="services" id="skills">
         <div class="max-width">
             <h2 class="title"> Skills</h2>
             <div class="serv-content">
@@ -97,7 +90,6 @@
                         <i class="fas fa-paint-brush"></i>
                         <div class="text">Languages</div>
                         <p>Skilled in C, C++, and JAVASCRIPT for full-stack application development and problem-solving.</p>
-                        <!-- <p>Proficient in building interactive user interfaces using React.js and modern web technologies.</p> -->
                     </div>
                 </div>
                 <div class="card bott">
@@ -137,10 +129,8 @@
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <!-- <h2 class="title">My skills</h2> -->
             <div class="skills-content">
                 <div class="column left">
-                    <!-- <div class="text">My Experience</div>                     -->
                     <p>
                         My web development journey has been a thrilling and transformative experience. 
                         Starting from the basics of <span class = "text-2"
@@ -173,7 +163,7 @@
                     <div class="bars">
                         <div class="info">
                             <span>CSS</span>
-                            <span>75%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
@@ -187,7 +177,14 @@
                     <div class="bars">
                         <div class="info">
                             <span>React</span>
-                            <span>60%</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Angular</span>
+                            <span>70%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
@@ -203,72 +200,21 @@
                             <span>Express</span>
                             <span>65%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line express"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>C++</span>
-                            <span>70%</span>
+                            <span>.Net</span>
+                            <span>65%</span>
                         </div>
-                        <div class="line mysql"></div>
+                        <div class="line express"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- teams section start -->
-    <!-- <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">My team</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/ajay.jpg" alt="">
-                        <div class="text">AJAY KARODE</div>
-                        <p>WEB DEVELOPER AND TECHICAL CONSULTANT</p>
-                        <p>7828731241</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-2.jpeg" alt="">
-                        <div class="text">HIMANSHU KUMAR</div>
-                        <p>WEB DEVELOPER AND GRAPHIC DESIGNER</p>
-                        <p>9142731241</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-3.jpeg" alt="">
-                        <div class="text">ABHISHEK KUMAR</div>
-                        <p>TECHNICAL SEO AND CLOUD SPECIALIST </p>
-                        <p>987328731241</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/download.jpg" alt="">
-                        <div class="text">PRATHAM</div>
-                        <p>PRODUCT MARKETING MANAGER</p>
-                        <p>6264731241</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/profile-4.jpeg" alt="">
-                        <div class="text">DIPRAMAN</div>
-                        <p>HEAD B2B MARKETING</p>
-                        <p>9828731241</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-
+    
 
 
 
@@ -286,13 +232,13 @@
                         <p>I have completed AWS cloud practitioner certificate offered through AWS.
                     </div>
                 </div>
-                <div class="card">
+                <!-- <div class="card">
                     <div class="box">
                         <i class="fas  fa-code"></i>
                         <div class="text">AWS CLOUD OPERATIONS</div>
                         <p>I have completed AWS cloud operations certificate offered through AWS.</p>
                     </div>
-                </div>
+                </div> -->
                 <div class="card">
                     <div class="box">
                         <i class="fas  fa-code"></i>
@@ -311,16 +257,16 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <!-- <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
                         <div class="text">Fundamentals of Red Hat Enterprise Linux</div>
                         <p>An online non-credit course authorized by Red Hat and offered through Coursera.
                         </p>
                     </div>
-                </div>
+                </div> -->
         
-                <div class="card">
+                <!-- <div class="card">
                     <div class="box">
                         <i class="fas  fa-code"></i>
                         <div class="text">MATLAB</div>
@@ -333,7 +279,7 @@
                         <div class="text">MATLAB</div>
                         <p>Self-paced training course MATLAB Onramp offered by mathworks.</p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="card">
                     <div class="box">
@@ -419,27 +365,14 @@
                 <div class="swiper-slide">
                     <img src="certificates/hackathon_6.0.png" />
                 </div>
-                <!-- <div class="swiper-slide">
-                    <img src="certificates/matlab1.png" />
-                </div> -->
-                <!-- <div class="swiper-slide">
-                    <img src="certificates/Screenshot (826).png" />
-                </div> -->
+
                 <div class="swiper-slide">
                     <img src="certificates/Screenshot (825).png" />
                 </div>
+  
                 <!-- <div class="swiper-slide">
-                    <img src="certificates/Screenshot (821).png" />
-                </div> -->
-                <!-- <div class="swiper-slide">
-                    <img src="certificates/Screenshot (822).png" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="certificates/Screenshot (823).png" />
-                </div> -->
-                <div class="swiper-slide">
                     <img src="certificates/Screenshot (824).png" />
-                </div>
+                </div> -->
 
                 <div class="swiper-slide">
                     <img src="certificates/microsoftcn.png" />
@@ -453,14 +386,9 @@
                 <div class="swiper-slide">
                     <img src="certificates/level3.png" />
                 </div>
+   
                 <!-- <div class="swiper-slide">
-                    <img src="certificates/nasaspaceapp.png" />
-                </div> -->
-                <div class="swiper-slide">
                     <img src="certificates/shapeai_aws.png" />
-                </div>
-                <!-- <div class="swiper-slide">
-                    <img src="certificates/devtown_webdev_bootcamp.png" />
                 </div> -->
 
             </div>
@@ -494,16 +422,6 @@
     </html>
 
 
-
-
-
-
-
-
-
-
-
-
     <!-- PROJECTS -->
 
     <section class="teams" id="project">
@@ -515,7 +433,6 @@
                         <img src="images/news.png" alt="">
                         <div class="text">NEWS-24/7</div>
                         <p>Made With React</p>
-                        <!-- <a href="#">HIRE ME!</a> -->
                         <a href="https://github.com/ajaykarode/login-Authentication" target="_blank"
                             className="btn btn-primary">
                             Github
@@ -574,68 +491,44 @@
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- skills section start -->
-    <section class="skills" id="skills">
+    <section class="skills" id="experience">
         <div class="max-width">
             <h2 class="title">My Experience</h2>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">InfoKoders Technologies Private Limited</div>
-                    <h4>Full-Stack Developer</h4>                  
-                        <p>•Developed responsive and user-friendly front-end interfaces using HTML, CSS, and JavaScript, ensuring optimal user experience across different devices.</p>
-                        <p>•Implemented front-end designs and interactions using React, resulting in improved website performance and reduced load times.</p>
-                        <p>•Collaborated with the back-end development team to design and develop RESTful APIs using Express.js to facilitate smooth communication between the front-end and back-end.</p>
-                        <p>•Integrated MySQL database to store and manage application data, ensuring data security and high performance.</p>
-                        <p>•Implemented user authentication and authorization mechanisms using JSON Web Tokens (JWT) for enhanced security and user access control.</p>
-                        <p>•Worked with version control system Git to manage codebase and enable seamless collaboration with team members.</p>
-                        <p>•Participated in daily stand-up meetings and sprints, following Agile methodologies to deliver incremental updates and ensure project progress.</p>
-                        <p>•Conducted code reviews and provided constructive feedback to team members to maintain code quality and best practices.</p>
-                    
+                    <h4 class="lower">Full-Stack Developer</h4>  
+                    <ul>                
+                        <li><p>Developed responsive and user-friendly front-end interfaces using HTML, CSS, and JavaScript, ensuring optimal user experience across different devices.</p></li>
+                        <li><p>Implemented front-end designs and interactions using React, resulting in improved website performance and reduced load times.</p></li>
+                        <li><p>Collaborated with the back-end development team to design and develop RESTful APIs using Express.js to facilitate smooth communication between the front-end and back-end.</p></li>
+                        <li><p>Integrated MySQL database to store and manage application data, ensuring data security and high performance.</p></li>
+                        <li><p>Implemented user authentication and authorization mechanisms using JSON Web Tokens (JWT) for enhanced security and user access control.</p></li>
+                        <li><p>Worked with version control system Git to manage codebase and enable seamless collaboration with team members.</p></li>
+                        <li><p>Participated in daily stand-up meetings and sprints, following Agile methodologies to deliver incremental updates and ensure project progress.</p></li>
+                        <li><p>Conducted code reviews and provided constructive feedback to team members to maintain code quality and best practices.</p></li>
+                    </ul>
 
                 </div>
-<!-- 
-                <div class="column left">
-                    <div class="text">PurposeFul Products</div>
-                    <h4> Digital Marketing Specialist </h4> 
-                        <p>•Executes online marketing campaigns, manages social media, SEO, SEM, email marketing, and drives traffic to the website</p>                 
-                        <p>•Handles customer inquiries, resolves issues, and provides exceptional customer support through various communication channels.</p>
-                        <p>•Creates engaging and persuasive product descriptions, blog posts, and marketing content to attract and retain customers.</p>
-                        <p>•Designs visuals for marketing materials, product images, and promotional banners.</p>
-                        <p>•Identifies and pursues strategic partnerships, collaborations, and growth opportunities for the company.</p>
-                        <p>•Assisted in the development and execution of social media marketing campaigns, resulting in about 20% increase in market sales.</p>
-                        <p>•Conducted keyword research and assisted in implementing on-page SEO strategies, contributing to improved search engine rankings.</p>
-                </div> -->
-                <div class="column left">
-                    <div class="text">PurposeFul Products</div>
-                    <h4>Digital Marketing Specialist</h4> 
-                    <p>•Executes online marketing campaigns, manages social media, SEO, SEM, email marketing, and drives traffic to the website</p>                 
-                    <p>•Handles customer inquiries, resolves issues, and provides exceptional customer support through various communication channels.</p>
-                    <p>•Creates engaging and persuasive product descriptions, blog posts, and marketing content to attract and retain customers.</p>
-                    <p>•Designs visuals for marketing materials, product images, and promotional banners.</p>
-                    <p>•Identifies and pursues strategic partnerships, collaborations, and growth opportunities for the company.</p>
-                    <p>•Assisted in the development and execution of social media marketing campaigns, resulting in about 20% increase in market sales.</p>
-                    <p>•Conducted keyword research and assisted in implementing on-page SEO strategies, contributing to improved search engine rankings.</p>
-                    <p>•Created compelling content for the company's blog and social media platforms.</p>
-                    <p>•Partnering with other businesses or influencers to promote products and earn commissions for referred sales..</p>
 
+                <div class="column left">
+                    <div class="text">Bounteous X Accolite</div>
+                    <h4 class="lower">Software Developer</h4> 
+                    <ul>
+                        <li><p class ="space-word">Develop RESTful APIs for the Event Management System using .NET Core.</p>  </li>               
+                        <li><p class ="space-word">Designed and optimized SQL Queries for enhancing performance for seamless integration and data management.</p>  </li>               
+                        <li><p class ="space-word">Worked on Integrating Mailing Service, Cloud-based Image Upload functionality and Payment Gateway.</p></li>
+                        <li><p class ="space-word">Crafted responsive and intuitive user interfaces using Angular and React, enhanced user engagement by 27% and reduced
+                               page load time by 30%.</p></li>
+                        <li><p class ="space-word">Collaborated with a 4-member Agile team, actively participating in sprint planning, retrospectives to ensure timely
+                               project delivery.</p></li>
+                        <li><p class ="space-word">Deployed complete Event Management Project on Azure.</p></li>
+                        <li><p class ="space-word">Conducted keyword research and assisted in implementing on-page SEO strategies, contributing to improved search engine rankings.</p></li>
+                        <li><p class ="space-word">Implemented JWT for secure tokenization of user interactions and API requests.</p></li>                                 
+                        <li><p class ="space-word">Created CI/CD pipelines to deploy changes to production environments on demand.</p></li>
+                        <li><p class ="space-word">Implemented Lazy Loading and Swiper Functionality.</p></li>
+                </ul>
                 </div>
             </div>
         </div>
@@ -701,76 +594,6 @@
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- footer section start -->
     <footer>
         <div class="social-media-links">
@@ -784,7 +607,7 @@
     
         </div>
     
-        <span>Created By <a href="https://www.google.com/">AJAY KARODE</a> | <span class="far fa-copyright"></span> 2021
+        <span>Created By <a href="https://www.google.com/">AJAY KARODE</a> | <span class="far fa-copyright"></span> 2024
             All rights reserved.</span>
     </footer>
 

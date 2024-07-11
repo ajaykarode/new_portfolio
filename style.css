@@ -390,16 +390,19 @@ section .title::after{
     
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .js::before{
     width: 80%;
 }
 .skills-content .right .php::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
+}
+.skills-content .right .express::before{
+    width: 65%;
 }
 
 
@@ -650,54 +653,13 @@ footer span a:hover{
 
 }
 
+.space-word{
+    word-spacing: 3px;  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.lower{
+    margin-bottom: 5px;
+}
 .swiper {
     width: 100%;
     padding-top: 50px;
@@ -715,31 +677,6 @@ footer span a:hover{
     display: block;
     width: 100%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
